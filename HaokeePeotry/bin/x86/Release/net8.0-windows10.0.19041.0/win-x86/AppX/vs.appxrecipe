@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>A01</Machine>
+    <WindowsUser>ylxxl402student</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>ac439be1-0b1b-41bf-9f59-f098f349b406</PackageIdentityName>
+    <PackageIdentityPublisher>CN=ylxxl402student</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\haokee\HaokeePeotry\HaokeePeotry\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\haokee\HaokeePeotry\HaokeePeotry\bin\x86\Release\net8.0-windows10.0.19041.0\win-x86\AppX</LayoutDir>
+    <RegisteredManifestChecksum>CB163F8C3D47E4B442BB37C64C5CD3E65ACE7029C9385200E03F76074D85625F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>ac439be1-0b1b-41bf-9f59-f098f349b406_1.0.0.0_x86__rtkc8zy2gwz38</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>ac439be1-0b1b-41bf-9f59-f098f349b406_rtkc8zy2gwz38!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>ac439be1-0b1b-41bf-9f59-f098f349b406</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=ylxxl402student</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\haokee\HaokeePeotry\HaokeePeotry\bin\x86\Release\net8.0-windows10.0.19041.0\win-x86\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-11-19T07:19:26.000</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\bin\x86\Release\net8.0-windows10.0.19041.0\win-x86\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2024-11-19T07:19:25.873</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\bin\x86\Release\net8.0-windows10.0.19041.0\win-x86\HaokeePeotry.runtimeconfig.json">
+      <PackagePath>HaokeePeotry.runtimeconfig.json</PackagePath>
+      <Modified>2024-11-19T07:19:25.850</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\apphost.exe">
+      <PackagePath>HaokeePeotry.exe</PackagePath>
+      <Modified>2024-11-19T07:18:50.811</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ylxxl402student\.nuget\packages\microsoft.web.webview2\1.0.2651.64\runtimes\win-x86\native\WebView2Loader.dll">
+      <PackagePath>runtimes\win-x86\native\WebView2Loader.dll</PackagePath>
+      <Modified>2024-07-20T08:33:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ylxxl402student\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.10\runtimes\win-x86\native\Microsoft.DiaSymReader.Native.x86.dll">
+      <PackagePath>Microsoft.DiaSymReader.Native.x86.dll</PackagePath>
+      <Modified>2024-04-27T23:23:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ylxxl402student\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.10\runtimes\win-x86\native\System.IO.Compression.Native.dll">
+      <PackagePath>System.IO.Compression.Native.dll</PackagePath>
+      <Modified>2024-09-17T18:18:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ylxxl402student\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.10\runtimes\win-x86\native\clretwrc.dll">
+      <PackagePath>clretwrc.dll</PackagePath>
+      <Modified>2024-09-17T18:06:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ylxxl402student\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.10\runtimes\win-x86\native\clrgc.dll">
+      <PackagePath>clrgc.dll</PackagePath>
+      <Modified>2024-09-17T18:06:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ylxxl402student\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.10\runtimes\win-x86\native\clrjit.dll">
+      <PackagePath>clrjit.dll</PackagePath>
+      <Modified>2024-09-17T18:05:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ylxxl402student\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.10\runtimes\win-x86\native\coreclr.dll">
+      <PackagePath>coreclr.dll</PackagePath>
+      <Modified>2024-09-17T18:04:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ylxxl402student\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.10\runtimes\win-x86\native\createdump.exe">
+      <PackagePath>createdump.exe</PackagePath>
+      <Modified>2024-09-17T18:06:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ylxxl402student\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.10\runtimes\win-x86\native\hostfxr.dll">
+      <PackagePath>hostfxr.dll</PackagePath>
+      <Modified>2024-09-17T18:17:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ylxxl402student\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.10\runtimes\win-x86\native\hostpolicy.dll">
+      <PackagePath>hostpolicy.dll</PackagePath>
+      <Modified>2024-09-17T18:17:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ylxxl402student\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.10\runtimes\win-x86\native\mscordaccore.dll">
+      <PackagePath>mscordaccore.dll</PackagePath>
+      <Modified>2024-09-17T18:11:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ylxxl402student\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.10\runtimes\win-x86\native\mscordaccore_x86_x86_8.0.1024.46610.dll">
+      <PackagePath>mscordaccore_x86_x86_8.0.1024.46610.dll</PackagePath>
+      <Modified>2024-09-17T18:11:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ylxxl402student\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.10\runtimes\win-x86\native\mscordbi.dll">
+      <PackagePath>mscordbi.dll</PackagePath>
+      <Modified>2024-09-17T18:11:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ylxxl402student\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.10\runtimes\win-x86\native\mscorrc.dll">
+      <PackagePath>mscorrc.dll</PackagePath>
+      <Modified>2024-09-17T18:06:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ylxxl402student\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.10\runtimes\win-x86\native\msquic.dll">
+      <PackagePath>msquic.dll</PackagePath>
+      <Modified>2024-03-12T16:41:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ylxxl402student\.nuget\packages\microsoft.web.webview2\1.0.2651.64\runtimes\win-x86\native\WebView2Loader.dll">
+      <PackagePath>WebView2Loader.dll</PackagePath>
+      <Modified>2024-07-20T08:33:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ylxxl402student\.nuget\packages\microsoft.windowsappsdk\1.6.241114003\runtimes\win-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
+      <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+      <Modified>2024-11-05T17:28:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ylxxl402student\.nuget\packages\microsoft.web.webview2\1.0.2651.64\runtimes\win-x86\native_uap\Microsoft.Web.WebView2.Core.dll">
+      <PackagePath>Microsoft.Web.WebView2.Core.dll</PackagePath>
+      <Modified>2024-07-20T08:33:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\linked\System.ComponentModel.dll">
+      <PackagePath>System.ComponentModel.dll</PackagePath>
+      <Modified>2024-11-19T07:18:56.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\Microsoft.InteractiveExperiences.Projection.dll">
+      <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
+      <Modified>2024-11-19T07:18:56.708</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\Microsoft.WinUI.dll">
+      <PackagePath>Microsoft.WinUI.dll</PackagePath>
+      <Modified>2024-11-19T07:18:56.779</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\Microsoft.Web.WebView2.Core.Projection.dll">
+      <PackagePath>Microsoft.Web.WebView2.Core.Projection.dll</PackagePath>
+      <Modified>2024-11-19T07:18:56.874</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\HaokeePeotry.dll">
+      <PackagePath>HaokeePeotry.dll</PackagePath>
+      <Modified>2024-11-19T07:18:56.926</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Collections.Concurrent.dll">
+      <PackagePath>System.Collections.Concurrent.dll</PackagePath>
+      <Modified>2024-11-19T07:18:56.975</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Collections.Immutable.dll">
+      <PackagePath>System.Collections.Immutable.dll</PackagePath>
+      <Modified>2024-11-19T07:18:57.021</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Collections.dll">
+      <PackagePath>System.Collections.dll</PackagePath>
+      <Modified>2024-11-19T07:18:57.066</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Diagnostics.StackTrace.dll">
+      <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
+      <Modified>2024-11-19T07:18:57.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.IO.Compression.dll">
+      <PackagePath>System.IO.Compression.dll</PackagePath>
+      <Modified>2024-11-19T07:18:57.161</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.IO.MemoryMappedFiles.dll">
+      <PackagePath>System.IO.MemoryMappedFiles.dll</PackagePath>
+      <Modified>2024-11-19T07:18:57.222</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Linq.Expressions.dll">
+      <PackagePath>System.Linq.Expressions.dll</PackagePath>
+      <Modified>2024-11-19T07:18:57.269</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Linq.dll">
+      <PackagePath>System.Linq.dll</PackagePath>
+      <Modified>2024-11-19T07:18:57.316</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.ObjectModel.dll">
+      <PackagePath>System.ObjectModel.dll</PackagePath>
+      <Modified>2024-11-19T07:18:57.364</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Private.CoreLib.dll">
+      <PackagePath>System.Private.CoreLib.dll</PackagePath>
+      <Modified>2024-11-19T07:18:58.073</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Private.Uri.dll">
+      <PackagePath>System.Private.Uri.dll</PackagePath>
+      <Modified>2024-11-19T07:18:58.150</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Reflection.Metadata.dll">
+      <PackagePath>System.Reflection.Metadata.dll</PackagePath>
+      <Modified>2024-11-19T07:18:58.227</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Runtime.InteropServices.dll">
+      <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
+      <Modified>2024-11-19T07:18:58.283</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Security.Cryptography.dll">
+      <PackagePath>System.Security.Cryptography.dll</PackagePath>
+      <Modified>2024-11-19T07:18:58.330</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\Microsoft.Windows.SDK.NET.dll">
+      <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
+      <Modified>2024-11-19T07:18:58.391</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\WinRT.Runtime.dll">
+      <PackagePath>WinRT.Runtime.dll</PackagePath>
+      <Modified>2024-11-19T07:18:58.570</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\HaokeePeotry.deps.json">
+      <PackagePath>HaokeePeotry.deps.json</PackagePath>
+      <Modified>2024-11-19T07:18:58.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\Assets\icon.ico">
+      <PackagePath>Assets\icon.ico</PackagePath>
+      <Modified>2024-11-19T04:47:03.346</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2024-11-19T01:42:17.536</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <Modified>2024-11-19T01:42:17.536</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <Modified>2024-11-19T01:42:17.536</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <Modified>2024-11-19T01:42:17.536</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <Modified>2024-11-19T01:42:17.536</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <Modified>2024-11-19T01:42:17.536</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\haokee\HaokeePeotry\HaokeePeotry\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <Modified>2024-11-19T01:42:17.536</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\ylxxl402student\.nuget\packages\microsoft.windowsappsdk\1.6.241114003\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.6.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.6</Name>
+      <Version>6000.318.2304.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.6, MinVersion = 6000.318.2304.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ylxxl402student\.nuget\packages\microsoft.windowsappsdk\1.6.241114003\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.6.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ylxxl402student\.nuget\packages\microsoft.windowsappsdk\1.6.241114003\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.6.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.6</Name>
+      <Version>6000.318.2304.0</Version>
+      <Architecture>win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.6, MinVersion = 6000.318.2304.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ylxxl402student\.nuget\packages\microsoft.windowsappsdk\1.6.241114003\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.6.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ylxxl402student\.nuget\packages\microsoft.windowsappsdk\1.6.241114003\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.6.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.6</Name>
+      <Version>6000.318.2304.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.6, MinVersion = 6000.318.2304.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ylxxl402student\.nuget\packages\microsoft.windowsappsdk\1.6.241114003\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.6.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\ylxxl402student\.nuget\packages\microsoft.windowsappsdk\1.6.241114003\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.6.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.6</Name>
+      <Version>6000.318.2304.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.6, MinVersion = 6000.318.2304.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\ylxxl402student\.nuget\packages\microsoft.windowsappsdk\1.6.241114003\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.6.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "HaokeePeotry (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "HaokeePeotry (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

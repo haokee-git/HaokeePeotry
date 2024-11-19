@@ -1,0 +1,17 @@
+<Window
+    x:Class="HaokeePeotry.NewPoetryWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="新建诗词">
+    <StackPanel Margin="10">
+        <TextBlock Text="文件名：" Margin="5"/>
+        <TextBox x:Name="FileNameTextBox" Margin="5"/>
+        <TextBlock Text="诗题：" Margin="5"/>
+        <TextBox x:Name="TitleTextBox" Margin="5"/>
+        <TextBlock Text="作者：" Margin="5"/>
+        <TextBox x:Name="AuthorTextBox" Margin="5"/>
+        <TextBlock Text="内容：" Margin="5"/>
+        <TextBox x:Name="ContentTextBox" Margin="5" Height="300" AcceptsReturn="True" TextWrapping="Wrap"/>
+        <Button Content="创建" Width="100" Height="30" Margin="10" HorizontalAlignment="Center" Click="CreateButton_Click"/>
+    </StackPanel>
+</Window>
