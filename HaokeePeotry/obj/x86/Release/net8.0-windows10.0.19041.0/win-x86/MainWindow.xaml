@@ -58,7 +58,7 @@
                 <TextBlock Text="内容：" Margin="5" VerticalAlignment="Center"/>
                 <TextBox x:ConnectionId='3' x:Name="FileContentTextBox" Width="300" Height="350" Margin="10" IsReadOnly="True" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Top" AcceptsReturn="True" TextAlignment="Center"/>
             </StackPanel>
-            <CheckBox x:ConnectionId='2' x:Name="CenterTextCheckBox" Content="文本居中"                                                                               Margin="10" HorizontalAlignment="Center"/>
+            <ToggleSwitch x:ConnectionId='2' x:Name="CenterTextToggleSwitch" Header="居中显示文本"                                          HorizontalAlignment="Center"/>
         </StackPanel>
     </Grid>
 </Window>

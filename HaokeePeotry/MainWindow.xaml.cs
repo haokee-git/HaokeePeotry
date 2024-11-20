@@ -19,7 +19,7 @@ namespace HaokeePeotry
             LoadFileList();
             this.AppWindow.SetIcon(System.Environment.CurrentDirectory + "\\icon.ico");
             this.AppWindow.Resize(new Windows.Graphics.SizeInt32(1250, 700));
-            LoadCenterTextCheckBoxState(); // ¼ÓÔØ CheckBox ×´Ì¬
+            LoadCenterTextToggleSwitchState(); // ¼ÓÔØ ToggleSwitch ×´Ì¬
         }
 
         private void LoadFileList()
@@ -183,40 +183,43 @@ namespace HaokeePeotry
             }
         }
 
-        private void CenterTextCheckBox_Checked(object sender, RoutedEventArgs e)
+        private void CenterTextToggleSwitch_Toggled(object sender, RoutedEventArgs e)
         {
-            FileContentTextBox.TextAlignment = TextAlignment.Center;
-            SaveCenterTextCheckBoxState(true);
+            if (CenterTextToggleSwitch.IsOn)
+            {
+                FileContentTextBox.TextAlignment = TextAlignment.Center;
+                SaveCenterTextToggleSwitchState(true);
+            }
+            else
+            {
+                FileContentTextBox.TextAlignment = TextAlignment.Left;
+                SaveCenterTextToggleSwitchState(false);
+            }
         }
 
-        private void CenterTextCheckBox_Unchecked(object sender, RoutedEventArgs e)
-        {
-            FileContentTextBox.TextAlignment = TextAlignment.Left;
-            SaveCenterTextCheckBoxState(false);
-        }
-
-        private void LoadCenterTextCheckBoxState()
+        private void LoadCenterTextToggleSwitchState()
         {
             string filePath = Path.Combine(Environment.CurrentDirectory, "text_center");
             if (File.Exists(filePath))
             {
                 string state = File.ReadAllText(filePath).Trim();
-                CenterTextCheckBox.IsChecked = state == "true";
-                if ((bool)CenterTextCheckBox.IsChecked)
+                CenterTextToggleSwitch.IsOn = state == "true";
+                if (CenterTextToggleSwitch.IsOn)
                 {
-                    CenterTextCheckBox_Checked(null, null);
-                } else
+                    CenterTextToggleSwitch_Toggled(null, null);
+                }
+                else
                 {
-                    CenterTextCheckBox_Unchecked(null, null);
+                    CenterTextToggleSwitch_Toggled(null, null);
                 }
             }
             else
             {
-                CenterTextCheckBox.IsChecked = true; // Ä¬ÈÏ¹´Ñ¡
+                CenterTextToggleSwitch.IsOn = true; // Ä¬ÈÏ¿ªÆô
             }
         }
 
-        private void SaveCenterTextCheckBoxState(bool isChecked)
+        private void SaveCenterTextToggleSwitchState(bool isChecked)
         {
             string filePath = Path.Combine(Environment.CurrentDirectory, "text_center");
             File.WriteAllText(filePath, isChecked ? "true" : "false");
