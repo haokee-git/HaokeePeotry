@@ -16,7 +16,7 @@ namespace HaokeePeotry
             TitleTextBox.TextChanged += TitleTextBox_TextChanged;
             FileNameTextBox.TextChanged += FileNameTextBox_TextChanged;
             this.AppWindow.SetIcon(System.Environment.CurrentDirectory + "\\icon.ico");
-            this.AppWindow.Resize(new Windows.Graphics.SizeInt32(350, 670));
+            this.AppWindow.Resize(new Windows.Graphics.SizeInt32(300, 670));
         }
 
         private void FileNameTextBox_TextChanged(object sender, TextChangedEventArgs e)

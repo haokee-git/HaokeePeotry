@@ -19,6 +19,7 @@ namespace HaokeePeotry
             LoadFileList();
             this.AppWindow.SetIcon(System.Environment.CurrentDirectory + "\\icon.ico");
             this.AppWindow.Resize(new Windows.Graphics.SizeInt32(1250, 700));
+            LoadCenterTextCheckBoxState(); // ¼ÓÔØ CheckBox ×´Ì¬
         }
 
         private void LoadFileList()
@@ -180,6 +181,45 @@ namespace HaokeePeotry
                     }
                 }
             }
+        }
+
+        private void CenterTextCheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            FileContentTextBox.TextAlignment = TextAlignment.Center;
+            SaveCenterTextCheckBoxState(true);
+        }
+
+        private void CenterTextCheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+            FileContentTextBox.TextAlignment = TextAlignment.Left;
+            SaveCenterTextCheckBoxState(false);
+        }
+
+        private void LoadCenterTextCheckBoxState()
+        {
+            string filePath = Path.Combine(Environment.CurrentDirectory, "text_center");
+            if (File.Exists(filePath))
+            {
+                string state = File.ReadAllText(filePath).Trim();
+                CenterTextCheckBox.IsChecked = state == "true";
+                if ((bool)CenterTextCheckBox.IsChecked)
+                {
+                    CenterTextCheckBox_Checked(null, null);
+                } else
+                {
+                    CenterTextCheckBox_Unchecked(null, null);
+                }
+            }
+            else
+            {
+                CenterTextCheckBox.IsChecked = true; // Ä¬ÈÏ¹´Ñ¡
+            }
+        }
+
+        private void SaveCenterTextCheckBoxState(bool isChecked)
+        {
+            string filePath = Path.Combine(Environment.CurrentDirectory, "text_center");
+            File.WriteAllText(filePath, isChecked ? "true" : "false");
         }
     }
 }
